@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "QuickStand";
+    src: url("./fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Honney";
+    src: url("./fonts/HoneyScript-Light.ttf");
+}
+
+* {
+    font-family: "QuickStand";
+}
+
+.background-01 {
+    background-color: rgb(230, 230, 230);
+}
+
+.title-01 {
+    font-size: 20px;
+}
+
+.title-02 {
+    color: rgb(179, 179, 179);
+}
+
+.social-01 {
+    background-image: url("resources/facebook.png");
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.social-02 {
+    background-image: url("resources/google.png");
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.social-03 {
+    background-image: url("resources/twitter.png");
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.social-04 {
+    background-image: url("resources/apple-logo.png");
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.background-02 {
+    background-image: url("resources/signin-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-03 {
+    background-image: url("resources/signup-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title-03 {
+    font-family: "Honney";
+    font-size: 40px;
+    font-weight: bold;
+    font-weight: bold;
+    color: rgb(250, 124, 41);
+}
+
+.background-title {
+    background-image: url("resources/logo-no-background.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+}
+
+.navbar-mylogo {
+    height: 35px;
+}
+

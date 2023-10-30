@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tech</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top col-12">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="adminpanel.html">
+                <img src="resources/logo-no-background.png" width="140" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="adminpanel.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="manageproducts.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="manageuser.html">Users</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold " href="#">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand ms-3" href="admin.html">
+                            <img src="resources/user.png" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card mt-4">
+
+            <nav class="navbar bg-body mx-3 card-title mt-1 ">
+                <div class="text-center">
+                    <a href="#" class="navbar-brand">All Users</a>
+                    <a href="#" class="navbar-brand">Online(0)</a>
+                    <a href="#" class="navbar-brand">Offline(0)</a>
+                    <a href="#" class="navbar-brand">Blocked(0)</a>
+                </div>
+                <div>
+                    <button class="btn btn btn-danger btn-sm">Deleted Users</button>
+                </div>
+            </nav>
+
+            <div class="card-body">
+                <div class=" row justify-content-center">
+                    <div class="col-12 col-md-9">
+                        <input class="form-control me-2" type="search" placeholder="UserName or User ID">
+                    </div>
+                    <button class="btn btn-outline-success col-4 col-md-2 mt-md-0 mt-3" type="submit">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="table-responsive">
+            <table class="table  my-5 bg-white">
+                <thead class="bg-dark text-bg-dark">
+                    <tr>
+                        <th>Register ID</th>
+                        <th>User</th>
+                        <th>Username</th>
+                        <th>Date Registerd</th>
+                        <th>Orders</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>00215452</p>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <img src="resources/user-1.png" class="rounded-circle" />
+                                <div class="ms-3">
+                                    <p class="fw-bold mb-1">John Nimal</p>
+                                    <p class="text-muted mb-0">johnNimal@gmail.com</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p>JohnNimal</p>
+                        </td>
+                        <td>
+                            <p>2023.01.25</p>
+                        </td>
+                        <td>04</td>
+                        <td>
+                            <button type="button" class="btn btn-danger dropdown-toggle">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>00215452</p>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <img src="resources/user-1.png" class="rounded-circle" />
+                                <div class="ms-3">
+                                    <p class="fw-bold mb-1">John Nimal</p>
+                                    <p class="text-muted mb-0">johnNimal@gmail.com</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p>JohnNimal</p>
+                        </td>
+                        <td>
+                            <p>2023.01.25</p>
+                        </td>
+                        <td>04</td>
+                        <td>
+                            <button type="button" class="btn btn-danger dropdown-toggle">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>00215452</p>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <img src="resources/user-1.png" class="rounded-circle" />
+                                <div class="ms-3">
+                                    <p class="fw-bold mb-1">John Nimal</p>
+                                    <p class="text-muted mb-0">johnNimal@gmail.com</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p>JohnNimal</p>
+                        </td>
+                        <td>
+                            <p>2023.01.25</p>
+                        </td>
+                        <td>04</td>
+                        <td>
+                            <button type="button" class="btn btn-danger dropdown-toggle">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>00215452</p>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <img src="resources/user-1.png" class="rounded-circle" />
+                                <div class="ms-3">
+                                    <p class="fw-bold mb-1">John Nimal</p>
+                                    <p class="text-muted mb-0">johnNimal@gmail.com</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p>JohnNimal</p>
+                        </td>
+                        <td>
+                            <p>2023.01.25</p>
+                        </td>
+                        <td>04</td>
+                        <td>
+                            <button type="button" class="btn btn-danger dropdown-toggle">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>00215452</p>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <img src="resources/user-1.png" class="rounded-circle" />
+                                <div class="ms-3">
+                                    <p class="fw-bold mb-1">John Nimal</p>
+                                    <p class="text-muted mb-0">johnNimal@gmail.com</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p>JohnNimal</p>
+                        </td>
+                        <td>
+                            <p>2023.01.25</p>
+                        </td>
+                        <td>04</td>
+                        <td>
+                            <button type="button" class="btn btn-danger dropdown-toggle">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>00215452</p>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <img src="resources/user-1.png" class="rounded-circle" />
+                                <div class="ms-3">
+                                    <p class="fw-bold mb-1">John Nimal</p>
+                                    <p class="text-muted mb-0">johnNimal@gmail.com</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p>JohnNimal</p>
+                        </td>
+                        <td>
+                            <p>2023.01.25</p>
+                        </td>
+                        <td>04</td>
+                        <td>
+                            <button type="button" class="btn btn-danger dropdown-toggle">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>00215452</p>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <img src="resources/user-1.png" class="rounded-circle" />
+                                <div class="ms-3">
+                                    <p class="fw-bold mb-1">John Nimal</p>
+                                    <p class="text-muted mb-0">johnNimal@gmail.com</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p>JohnNimal</p>
+                        </td>
+                        <td>
+                            <p>2023.01.25</p>
+                        </td>
+                        <td>04</td>
+                        <td>
+                            <button type="button" class="btn btn-danger dropdown-toggle">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>00215452</p>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <img src="resources/user-1.png" class="rounded-circle" />
+                                <div class="ms-3">
+                                    <p class="fw-bold mb-1">John Nimal</p>
+                                    <p class="text-muted mb-0">johnNimal@gmail.com</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p>JohnNimal</p>
+                        </td>
+                        <td>
+                            <p>2023.01.25</p>
+                        </td>
+                        <td>04</td>
+                        <td>
+                            <button type="button" class="btn btn-danger dropdown-toggle">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>00215452</p>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <img src="resources/user-1.png" class="rounded-circle" />
+                                <div class="ms-3">
+                                    <p class="fw-bold mb-1">John Nimal</p>
+                                    <p class="text-muted mb-0">johnNimal@gmail.com</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p>JohnNimal</p>
+                        </td>
+                        <td>
+                            <p>2023.01.25</p>
+                        </td>
+                        <td>04</td>
+                        <td>
+                            <button type="button" class="btn btn-danger dropdown-toggle">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>00215452</p>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <img src="resources/user-1.png" class="rounded-circle" />
+                                <div class="ms-3">
+                                    <p class="fw-bold mb-1">John Nimal</p>
+                                    <p class="text-muted mb-0">johnNimal@gmail.com</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p>JohnNimal</p>
+                        </td>
+                        <td>
+                            <p>2023.01.25</p>
+                        </td>
+                        <td>04</td>
+                        <td>
+                            <button type="button" class="btn btn-danger dropdown-toggle">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>00215452</p>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <img src="resources/user-1.png" class="rounded-circle" />
+                                <div class="ms-3">
+                                    <p class="fw-bold mb-1">John Nimal</p>
+                                    <p class="text-muted mb-0">johnNimal@gmail.com</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p>JohnNimal</p>
+                        </td>
+                        <td>
+                            <p>2023.01.25</p>
+                        </td>
+                        <td>04</td>
+                        <td>
+                            <button type="button" class="btn btn-danger dropdown-toggle">Edit</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </section>
+
+    <section class="col-12 bg-secondary mt-5 pt-4 pb-2">
+        <div class="container">
+            <div class="text-center">
+                <h6>&copy; New tech Techonologes 2023</h6>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>New Tech</title>
+    <link rel="icon" href="resources/website-icon.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+
+</head>
+
+<body class="bg-body-tertiary">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="resources/logo-no-background.png" class="navbar-mylogo" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link active" href="#">Today's Deals</a>
+                    <a class="nav-link active" href="#">Gift Cards</a>
+                    <a class="nav-link active" href="#">Help</a>
+                </div>
+
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active me-2" href="#">
+                        <img src="resources/bell.png" />
+                    </a>
+                    <a class="nav-link active me-2" href="#">
+                        <img src="resources/wishlist.png" />
+                    </a>
+                    <a class="nav-link active me-2" href="signin.html">
+                        <img src="resources/user.png" />
+                    </a>
+                    <a class="nav-link active" href="cart.html">
+                        <img src="resources/shopping-cart.png" />
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation Bar -->
+
+    <!-- Content -->
+    <div class="container d-flex justify-content-center">
+        <div class="row align-content-center">
+
+            <div class="col-12">
+                <div class="row mt-4 g-4">
+
+                    <div class="col-12 mb-3">
+                        <h1 class="text-secondary text-center">Advance Search Options</h1>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="row g-3">
+
+                            <div class="col-12">
+                                <h6 class="fw-bold">Search Category</h6>
+                            </div>
+
+                            <div class="col-12">
+                                <h6 class="form-label fw-bold">Items</h6>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1" checked />
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Find Items
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" />
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        By Seller
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault3" />
+                                    <label class="form-check-label" for="flexRadioDefault3">
+                                        By Item Number
+                                    </label>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12">
+                                <h6 class="form-label fw-bold">Stores</h6>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault1"
+                                        id="flexRadioDefault4" />
+                                    <label class="form-check-label" for="flexRadioDefault4">
+                                        Items in Stores
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault1"
+                                        id="flexRadioDefault5" />
+                                    <label class="form-check-label" for="flexRadioDefault5">
+                                        Find Stores
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="row g-2">
+
+                            <div class="col-12">
+                                <h3 class="fw-bold">Find items</h3>
+                            </div>
+
+                            <div class="col-12">
+                                <hr />
+                            </div>
+
+                            <div class="col-12">
+                                <h6 class="form-label fw-bold">Enter keywords or item number</h6>
+                                <input type="email" class="form-control" placeholder="Enter keywords or item number" />
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <label class="form-label">Keyword options</label>
+                                        <select class="form-control">
+                                            <option>All Words, any order</option>
+                                            <option>Any Words, any order</option>
+                                            <option>Exact Words, exact order</option>
+                                            <option>Exact Words, any order</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <label class="form-label">Exclude words from your search</label>
+                                        <input type="email" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-label">In this category</label>
+                                <select class="form-control">
+                                    <option>All Category</option>
+                                    <option>Any Words, any order</option>
+                                    <option>Exact Words, exact order</option>
+                                    <option>Exact Words, any order</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row">
+
+                                    <div class="col-6 col-md-3 d-grid">
+                                        <button class="btn btn-primary">Search</button>
+                                    </div>
+
+                                    <div class="col-12 col-md-9 mt-1">
+                                        <span>See general <a href="#">search tips</a> or using <a href="#">advanced
+                                                search options</a></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <hr />
+                            </div>
+
+                            <div class="col-12">
+                                <h6 class="form-label fw-bold">Search Including</h6>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" />
+                                    <label class="form-check-label" for="rememberme">
+                                        Title and description
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" />
+                                    <label class="form-check-label" for="rememberme">
+                                        Completed items
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" />
+                                    <label class="form-check-label" for="rememberme">
+                                        Sold items
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <hr />
+                            </div>
+
+                            <div class="col-12">
+                                <h6 class="form-label fw-bold">Price</h6>
+                            </div>
+
+                            <div class="col-12 g-2">
+                                <div class="row">
+                                    <div class="col-12 col-md-5 mt-1">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" />
+                                            <label class="form-check-label" for="rememberme">
+                                                Show items priced from $
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-5 col-md-3">
+                                        <input type="email" class="form-control" placeholder="Min Price" />
+                                    </div>
+
+                                    <div class="col-2 col-md-1 mt-1">
+                                        <span>to $</span>
+                                    </div>
+
+                                    <div class="col-5 col-md-3">
+                                        <input type="email" class="form-control" placeholder="Max Price" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <hr />
+                            </div>
+
+                            <div class="col-12">
+                                <h6 class="form-label fw-bold">Buying Format</h6>
+                            </div>
+
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault3"
+                                        id="flexRadioDefault6" />
+                                    <label class="form-check-label" for="flexRadioDefault6">
+                                        Accepts offers
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault3"
+                                        id="flexRadioDefault7" />
+                                    <label class="form-check-label" for="flexRadioDefault7">
+                                        Auction
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault3"
+                                        id="flexRadioDefault8" />
+                                    <label class="form-check-label" for="flexRadioDefault8">
+                                        Buy It Now
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault3"
+                                        id="flexRadioDefault9" />
+                                    <label class="form-check-label" for="flexRadioDefault9">
+                                        Classified ads
+                                    </label>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-12">
+                                <hr />
+                            </div>
+
+                            <div class="col-12">
+                                <h6 class="form-label fw-bold">Condition</h6>
+                            </div>
+
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault4"
+                                        id="flexRadioDefault10" />
+                                    <label class="form-check-label" for="flexRadioDefault10">
+                                        New
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault4"
+                                        id="flexRadioDefault11" />
+                                    <label class="form-check-label" for="flexRadioDefault11">
+                                        Used
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault4"
+                                        id="flexRadioDefault12" />
+                                    <label class="form-check-label" for="flexRadioDefault12">
+                                        Not specified
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <hr />
+                            </div>
+
+                            <div class="col-12">
+                                <h6 class="form-label fw-bold">Show Results</h6>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" />
+                                    <label class="form-check-label" for="rememberme">
+                                        Free returns
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" />
+                                    <label class="form-check-label" for="rememberme">
+                                        Returns accepted
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" />
+                                    <label class="form-check-label" for="rememberme">
+                                        Authorized seller
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" />
+                                    <label class="form-check-label" for="rememberme">
+                                        Deals and savings
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" />
+                                    <label class="form-check-label" for="rememberme">
+                                        Sale items
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" />
+                                    <label class="form-check-label" for="rememberme">
+                                        Listed as lots
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" />
+                                    <label class="form-check-label" for="rememberme">
+                                        Benefits charity
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" />
+                                    <label class="form-check-label" for="rememberme">
+                                        Authenticity Guarantee
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <hr />
+                            </div>
+
+                            <div class="col-12">
+                                <h6 class="form-label fw-bold">Shipping Options</h6>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" />
+                                    <label class="form-check-label" for="rememberme">
+                                        Free shipping
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" />
+                                    <label class="form-check-label" for="rememberme">
+                                        Local pickup
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <hr />
+                            </div>
+
+                            <div class="col-12">
+                                <h6 class="form-label fw-bold">Item Location</h6>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault5"
+                                        id="flexRadioDefault13" />
+                                    <label class="form-check-label" for="flexRadioDefault13">
+                                        Default
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault5"
+                                        id="flexRadioDefault14" />
+                                    <label class="form-check-label" for="flexRadioDefault14">
+                                        Sri Lanka Only
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault5"
+                                        id="flexRadioDefault15" />
+                                    <label class="form-check-label" for="flexRadioDefault15">
+                                        US Only
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault5"
+                                        id="flexRadioDefault16" />
+                                    <label class="form-check-label" for="flexRadioDefault16">
+                                        China Only
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault5"
+                                        id="flexRadioDefault17" />
+                                    <label class="form-check-label" for="flexRadioDefault17">
+                                        Worldwide
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <hr />
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <label class="form-label">Sort By</label>
+                                        <select class="form-control">
+                                            <option>- Select -</option>
+                                            <option>Any Words, any order</option>
+                                            <option>Exact Words, exact order</option>
+                                            <option>Exact Words, any order</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <label class="form-label">View Results</label>
+                                        <select class="form-control">
+                                            <option>- Select -</option>
+                                            <option>Any Words, any order</option>
+                                            <option>Exact Words, exact order</option>
+                                            <option>Exact Words, any order</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <label class="form-label">Results Per Page</label>
+                                        <select class="form-control">
+                                            <option>- Select -</option>
+                                            <option>Any Words, any order</option>
+                                            <option>Exact Words, exact order</option>
+                                            <option>Exact Words, any order</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <hr />
+                            </div>
+
+                            <div class="col-12 mb-4">
+                                <div class="row">
+
+                                    <div class="col-6 col-md-3 d-grid">
+                                        <button class="btn btn-primary">Search</button>
+                                    </div>
+
+                                    <div class="col-6 mt-1">
+                                        <a class="text-dark text-decoration-none" href="#"
+                                            style="font-size: 15px;">Clear options</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Content -->
+
+    <hr/>
+
+    <!-- Footer -->
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+
+            <div class="col-12 col-md-6 col-lg-4 mt-4">
+                <h5>Contact Us</h5>
+                <ul class="list-unstyled">
+                    <li class="list-group-item">
+                        <h6 class="text-secondary text-decoration-none"><img src="resources/home-address.png"
+                                class="me-2" />No 255, New York, Sri lanka, Russia</h6>
+                    </li>
+                    <li class="list-group-item">
+                        <h6 class="text-secondary text-decoration-none"><img src="resources/email.png"
+                                class="me-2" />newtechofficial@gmail.com</h6>
+                    </li>
+                    <li class="list-group-item">
+                        <h6 class="text-secondary text-decoration-none"><img src="resources/phone-call.png"
+                                class="me-2" />+94 77 789 4562</h6>
+                    </li>
+                    <li class="list-group-item">
+                        <h6 class="text-secondary text-decoration-none"><img src="resources/fax.png" class="me-2" />+94
+                            77 236 7946</h6>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-2 mt-4">
+                <h5>Shopping with us</h5>
+                <ul class="list-unstyled">
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Making payments</a>
+                    </li>
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Delivery options</a>
+                    </li>
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Buyer Protection</a>
+                    </li>
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Warranty</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-2 mt-4">
+                <h5>Customer service</h5>
+                <ul class="list-unstyled">
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Help Center</a>
+                    </li>
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Transaction Services</a>
+                    </li>
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Terms and Conditions</a>
+                    </li>
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Partnerships</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12">
+                <p class="text-center">&copy; 2023 newtech.lk || All Rights Reserved</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- Footer -->
+
+</body>
+
+</html>

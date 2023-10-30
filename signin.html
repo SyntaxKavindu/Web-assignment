@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>New Tech</title>
+    <link rel="icon" href="resources/website-icon.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+</head>
+
+<body class="background-01">
+
+    <div class="container-md vh-100 d-flex justify-content-center">
+        <div class="row align-content-center">
+            <!-- content -->
+
+            <!-- signin box -->
+            <div class="col-12 " id="signinbox">
+                <div class="row">
+
+                    <div class="col-12 col-lg-6 p-lg-5 bg-light rounded-4">
+                        <div class="row g-2 p-5">
+
+                            <div class="col-12 background-title"></div>
+
+                            <div class="col-12">
+                                <p class="title-01 text-center">WELCOME BACK</p>
+                            </div>
+
+                            <div class="col-12">
+                                <p class="title-02 text-center">login to get in the moment updates on the things
+                                    <br />that interest you
+                                </p>
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="Enter your email" />
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-label">Password</label>
+                                <input type="password" class="form-control" placeholder="Enter your password" />
+                            </div>
+
+                            <div class="col-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" />
+                                    <label class="form-check-label" for="rememberme">
+                                        Remember Me
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-6 text-end">
+                                <a href="#" class="link-primary text-decoration-none">Forgotten Password?</a>
+                            </div>
+
+                            <div class="col-12 d-grid mt-2">
+                                <button class="btn btn-danger" style="background-color: rgb(238, 94, 42); font-size: 18px; border-radius: 20px;">
+                                    Sign In</button>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row justify-content-center">
+                                    <div class="col-auto">
+                                        <p class="title-02 text-center">Don't have an account ?</p>
+                                    </div>
+
+                                    <div class="col-auto">
+                                        <button class="text-decoration-none border-0 bg-light" style="color: rgb(231, 109, 65);" onclick="changeview();">Sign up now</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <hr />
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="text-center">or</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <hr />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <p class="title-02 text-center">Continue with social media </p>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row">
+
+                                    <div class="col-3 social-01"></div>
+                                    <div class="col-3 social-02"></div>
+                                    <div class="col-3 social-03"></div>
+                                    <div class="col-3 social-04"></div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-6 p-5 d-none d-lg-block rounded-4 background-02">
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- signin box -->
+            <!-- signup box -->
+            <div class="col-12 d-none" id="signupbox">
+                <div class="row">
+                    <div class="col-6 p-lg-3 d-none d-lg-block rounded-4 background-03"></div>
+
+                    <div class="col-12 col-lg-6 p-lg-5 bg-light rounded-4">
+                        <div class="row g-3 p-2">
+
+                            <div class="col-12 background-title"></div>
+
+                            <div class="col-12">
+                                <p class="title-01 text-center">WELCOME TO</p>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="col-12">
+                                    <p class="title-02">Create New Account</p>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <label class="form-label">First Name</label>
+                                <input class="form-control" type="text" placeholder="ex: John" />
+                            </div>
+
+                            <div class="col-6">
+                                <label class="form-label">Last Name</label>
+                                <input class="form-control" type="text" placeholder="ex: Doe" />
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-label">Email</label>
+                                <input class="form-control" type="email" placeholder="ex: john@gmail.com" />
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-label">Password</label>
+                                <input class="form-control" type="password" placeholder="ex: ********" />
+                            </div>
+
+                            <div class="col-6">
+                                <label class="form-label">Mobile</label>
+                                <input class="form-control" type="text" placeholder="ex: 077 123 4567" />
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label">Gender</label>
+                                <select class="form-control">
+                                    <option>Select Your Gender</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 d-grid mt-2">
+                                <button class="btn btn-danger" style="background-color: rgb(238, 94, 42); font-size: 18px; border-radius: 20px;">
+                                    Sign Up</button>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row justify-content-center">
+                                    <div class="col-auto">
+                                        <p class="title-02 text-center ">Already have an account ?</p>
+                                    </div>
+
+                                    <div class="col-auto">
+                                        <button class="text-decoration-none border-0 bg-light" style="color: rgb(231, 109, 65);" onclick="changeview();">Sign in now</button>
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="title-02 text-center ">By creating an account, you agree to the newtech.com Free Membership Agreement and Privacy Policy</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- signup box -->
+            <!-- footer -->
+
+            <div class="col-12 fixed-bottom">
+                <p class="text-center">&copy; 2023 newtech.lk || All Rights Reserved</p>
+            </div>
+
+            <!-- footer -->
+            <!-- content -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

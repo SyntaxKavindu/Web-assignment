@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>New tech</title>
+    <link rel="icon" href="resources/website-icon.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+</head>
+
+<body class="bg-body-tertiary">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="resources/logo-no-background.png" class="navbar-mylogo" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link active" href="#">Today's Deals</a>
+                    <a class="nav-link active" href="#">Gift Cards</a>
+                    <a class="nav-link active" href="#">Help</a>
+                </div>
+
+                <div class="navbar-nav ms-auto">
+                    <div class="input-group">
+                        <span class="input-group-text dropdown-toggle" id="basic-addon1">All</span>
+                        <input type="text" class="form-control" placeholder="Search" />
+                        <a href="#" class="input-group-text"><img src="resources/magnifying-glass.png" /></a>
+                    </div>
+                    <a class="nav-link text-primary" href="Advancedsearch.html" style="font-size: 13px;">Advanced</a>
+                </div>
+
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active me-2" href="#">
+                        <img src="resources/bell.png" />
+                    </a>
+                    <a class="nav-link active me-2" href="#">
+                        <img src="resources/wishlist.png" />
+                    </a>
+                    <a class="nav-link active me-2" href="signin.html">
+                        <img src="resources/user.png" />
+                    </a>
+                    <a class="nav-link active" href="cart.html">
+                        <img src="resources/shopping-cart.png" />
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation Bar -->
+
+    <!-- Content -->
+    <div class="container d-flex justify-content-center">
+        <div class="row align-content-center g-3">
+
+            <div class="col-12">
+                <div class="card mt-5 rounded-0 border-0">
+                    <div class="card-body">
+                        <div class="row d-flex justify-content-between g-2">
+
+                            <div class="col-12 col-md-8 col-lg-6">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <button class="btn text-decoration-none border-0 bg-transparent">All</button>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button class="btn text-decoration-none border-0 bg-transparent">Unpaid</button>
+                                        <span>(0)</span>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button
+                                            class="btn text-decoration-none border-0 bg-transparent">Processing</button>
+                                        <span>(0)</span>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button
+                                            class="btn text-decoration-none border-0 bg-transparent">Shipped</button>
+                                        <span>(0)</span>
+                                    </div>
+                                    <div class="col-auto ">
+                                        <button
+                                            class="btn text-decoration-none border-0 bg-transparent">Completed</button>
+                                        <span>(0)</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-auto d-flex align-content-center">
+                                <button class="btn text-decoration-none border-0 bg-transparent">Cancled orders</button>
+                            </div>
+
+                            <div class="col-12 col-md-8 col-lg-6">
+                                <div class="input-group">
+                                    <span class="input-group-text dropdown-toggle" id="basic-addon1">Order</span>
+                                    <input type="text" class="form-control" placeholder="Search" />
+                                    <a href="#" class="input-group-text"><img
+                                            src="resources/magnifying-glass.png" /></a>
+                                </div>
+                            </div>
+
+                            <div class="col-auto">
+                                <span class="input-group-text dropdown-toggle" id="basic-addon1">All/Last Year</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="card mt-5 rounded-0 border-0">
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-12">
+                                <div class="row d-flex justify-content-between">
+
+                                    <div class="col-12 col-lg-3 mt-2 d-flex align-items-center">
+                                        <h5 class="fw-bold">Finished</h5>
+                                    </div>
+
+                                    <div class="col-12 col-lg-7">
+                                        <div class="row d-flex justify-content-lg-end">
+                                            <div class="col-8">
+                                                <div class="row">
+                                                    <div class="col-12 d-flex justify-content-lg-end">
+                                                        <label>Order Date: <span>Sep 6, 2022</span></label>
+                                                    </div>
+                                                    <div class="col-12 d-flex justify-content-lg-end">
+                                                        <label>Order Id: <span>54497641651984945</span></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="col-12 col-md-4 col-lg-auto d-flex align-items-center justify-content-end">
+                                                <a href="invoice.html" class="text-decoration-none fw-bold text-dark">Order
+                                                    Detailes ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <hr />
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row g-3">
+
+                                    <div class="col-6 col-md-auto d-flex align-items-center">
+                                        <img src="resources/phone/macbook-air.jpeg" class="img-fluid"
+                                            style="height: 120px;" />
+                                    </div>
+
+                                    <div class="col-12 col-md-7">
+                                        <div class="row">
+
+                                            <div class="col-12">
+                                                <h6>Apple MacBook Air (13-inch Retina display, 1.6GHz
+                                                    dual-core Intel Core i5, 128GB) - Gold</h6>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <h6 class="text-dark fw-bold" style="font-size: 13px;">Color:
+                                                        </h6>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <h6 class="text-secondary" style="font-size: 13px;">Gold </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <h6>US $989.99 <span class="text-secondary"> X 1</span></h6>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <h6 class="text-success" style="font-size: 13px;">Free
+                                                    Shipping</h6>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <h6 class="fw-bold">Total: US <span> 989.99</span></h6>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-2 ms-auto d-grid align-items-center">
+                                        <div class="row g-3">
+                                            <div class="col-12 d-grid">
+                                                <button class="btn btn-warning">Add To Cart</button>
+                                            </div>
+                                            <div class="col-12 d-grid">
+                                                <button class="btn btn-outline-dark">Delete</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="card mt-1 rounded-0 border-0">
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-12">
+                                <div class="row d-flex justify-content-between">
+
+                                    <div class="col-12 col-lg-3 mt-2 d-flex align-items-center">
+                                        <h5 class="fw-bold">Finished</h5>
+                                    </div>
+
+                                    <div class="col-12 col-lg-7">
+                                        <div class="row d-flex justify-content-lg-end">
+                                            <div class="col-8">
+                                                <div class="row">
+                                                    <div class="col-12 d-flex justify-content-lg-end">
+                                                        <label>Order Date: <span>Sep 6, 2022</span></label>
+                                                    </div>
+                                                    <div class="col-12 d-flex justify-content-lg-end">
+                                                        <label>Order Id: <span>54497641651984945</span></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="col-12 col-md-4 col-lg-auto d-flex align-items-center justify-content-end">
+                                                <a href="invoice.html" class="text-decoration-none fw-bold text-dark">Order
+                                                    Detailes ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <hr />
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row g-3">
+
+                                    <div class="col-6 col-md-auto d-flex align-items-center">
+                                        <img src="resources/phone/macbook-air.jpeg" class="img-fluid"
+                                            style="height: 120px;" />
+                                    </div>
+
+                                    <div class="col-12 col-md-7">
+                                        <div class="row">
+
+                                            <div class="col-12">
+                                                <h6>Apple MacBook Air (13-inch Retina display, 1.6GHz
+                                                    dual-core Intel Core i5, 128GB) - Gold</h6>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <h6 class="text-dark fw-bold" style="font-size: 13px;">Color:
+                                                        </h6>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <h6 class="text-secondary" style="font-size: 13px;">Gold </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <h6>US $989.99 <span class="text-secondary"> X 1</span></h6>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <h6 class="text-success" style="font-size: 13px;">Free
+                                                    Shipping</h6>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <h6 class="fw-bold">Total: US <span> 989.99</span></h6>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-2 ms-auto d-grid align-items-center">
+                                        <div class="row g-3">
+                                            <div class="col-12 d-grid">
+                                                <button class="btn btn-warning">Add To Cart</button>
+                                            </div>
+                                            <div class="col-12 d-grid">
+                                                <button class="btn btn-outline-dark">Delete</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="card mt-1 rounded-0 border-0">
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-12">
+                                <div class="row d-flex justify-content-between">
+
+                                    <div class="col-12 col-lg-3 mt-2 d-flex align-items-center">
+                                        <h5 class="fw-bold">Finished</h5>
+                                    </div>
+
+                                    <div class="col-12 col-lg-7">
+                                        <div class="row d-flex justify-content-lg-end">
+                                            <div class="col-8">
+                                                <div class="row">
+                                                    <div class="col-12 d-flex justify-content-lg-end">
+                                                        <label>Order Date: <span>Sep 6, 2022</span></label>
+                                                    </div>
+                                                    <div class="col-12 d-flex justify-content-lg-end">
+                                                        <label>Order Id: <span>54497641651984945</span></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="col-12 col-md-4 col-lg-auto d-flex align-items-center justify-content-end">
+                                                <a href="invoice.html" class="text-decoration-none fw-bold text-dark">Order
+                                                    Detailes ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <hr />
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row g-3">
+
+                                    <div class="col-6 col-md-auto d-flex align-items-center">
+                                        <img src="resources/phone/macbook-air.jpeg" class="img-fluid"
+                                            style="height: 120px;" />
+                                    </div>
+
+                                    <div class="col-12 col-md-7">
+                                        <div class="row">
+
+                                            <div class="col-12">
+                                                <h6>Apple MacBook Air (13-inch Retina display, 1.6GHz
+                                                    dual-core Intel Core i5, 128GB) - Gold</h6>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <h6 class="text-dark fw-bold" style="font-size: 13px;">Color:
+                                                        </h6>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <h6 class="text-secondary" style="font-size: 13px;">Gold </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <h6>US $989.99 <span class="text-secondary"> X 1</span></h6>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <h6 class="text-success" style="font-size: 13px;">Free
+                                                    Shipping</h6>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <h6 class="fw-bold">Total: US <span> 989.99</span></h6>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-2 ms-auto d-grid align-items-center">
+                                        <div class="row g-3">
+                                            <div class="col-12 d-grid">
+                                                <button class="btn btn-warning">Add To Cart</button>
+                                            </div>
+                                            <div class="col-12 d-grid">
+                                                <button class="btn btn-outline-dark">Delete</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="card mt-1 rounded-0 border-0">
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-12">
+                                <div class="row d-flex justify-content-between">
+
+                                    <div class="col-12 col-lg-3 mt-2 d-flex align-items-center">
+                                        <h5 class="fw-bold">Finished</h5>
+                                    </div>
+
+                                    <div class="col-12 col-lg-7">
+                                        <div class="row d-flex justify-content-lg-end">
+                                            <div class="col-8">
+                                                <div class="row">
+                                                    <div class="col-12 d-flex justify-content-lg-end">
+                                                        <label>Order Date: <span>Sep 6, 2022</span></label>
+                                                    </div>
+                                                    <div class="col-12 d-flex justify-content-lg-end">
+                                                        <label>Order Id: <span>54497641651984945</span></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="col-12 col-md-4 col-lg-auto d-flex align-items-center justify-content-end">
+                                                <a href="invoice.html" class="text-decoration-none fw-bold text-dark">Order
+                                                    Detailes ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <hr />
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row g-3">
+
+                                    <div class="col-6 col-md-auto d-flex align-items-center">
+                                        <img src="resources/phone/macbook-air.jpeg" class="img-fluid"
+                                            style="height: 120px;" />
+                                    </div>
+
+                                    <div class="col-12 col-md-7">
+                                        <div class="row">
+
+                                            <div class="col-12">
+                                                <h6>Apple MacBook Air (13-inch Retina display, 1.6GHz
+                                                    dual-core Intel Core i5, 128GB) - Gold</h6>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <h6 class="text-dark fw-bold" style="font-size: 13px;">Color:
+                                                        </h6>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <h6 class="text-secondary" style="font-size: 13px;">Gold </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <h6>US $989.99 <span class="text-secondary"> X 1</span></h6>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <h6 class="text-success" style="font-size: 13px;">Free
+                                                    Shipping</h6>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <h6 class="fw-bold">Total: US <span> 989.99</span></h6>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-2 ms-auto d-grid align-items-center">
+                                        <div class="row g-3">
+                                            <div class="col-12 d-grid">
+                                                <button class="btn btn-warning">Add To Cart</button>
+                                            </div>
+                                            <div class="col-12 d-grid">
+                                                <button class="btn btn-outline-dark">Delete</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Content -->
+
+    <!-- Footer -->
+
+    <hr>
+
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+
+            <div class="col-12 col-md-6 col-lg-4 mt-4">
+                <h5>Contact Us</h5>
+                <ul class="list-unstyled">
+                    <li class="list-group-item">
+                        <h6 class="text-secondary text-decoration-none"><img src="resources/home-address.png"
+                                class="me-2" />No 255, New York, Sri lanka, Russia</h6>
+                    </li>
+                    <li class="list-group-item">
+                        <h6 class="text-secondary text-decoration-none"><img src="resources/email.png"
+                                class="me-2" />newtechofficial@gmail.com</h6>
+                    </li>
+                    <li class="list-group-item">
+                        <h6 class="text-secondary text-decoration-none"><img src="resources/phone-call.png"
+                                class="me-2" />+94 77 789 4562</h6>
+                    </li>
+                    <li class="list-group-item">
+                        <h6 class="text-secondary text-decoration-none"><img src="resources/fax.png" class="me-2" />+94
+                            77 236 7946</h6>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-2 mt-4">
+                <h5>Shopping with us</h5>
+                <ul class="list-unstyled">
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Making payments</a>
+                    </li>
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Delivery options</a>
+                    </li>
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Buyer Protection</a>
+                    </li>
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Warranty</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-2 mt-4">
+                <h5>Customer service</h5>
+                <ul class="list-unstyled">
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Help Center</a>
+                    </li>
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Transaction Services</a>
+                    </li>
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Terms and Conditions</a>
+                    </li>
+                    <li class="list-group-item mt-1">
+                        <a href="#" class="text-secondary text-decoration-none">Partnerships</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12">
+                <p class="text-center">&copy; 2023 newtech.lk || All Rights Reserved</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- Footer -->
+
+</body>
+
+</html>
